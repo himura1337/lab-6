@@ -1,0 +1,107 @@
+/* Основні стилі */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #1a1a1a; /* Темно-сірий фон */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #000;
+    padding: 40px 0;
+    border-bottom: 5px solid #FFCC00; /* Німецьке золото */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.highlight {
+    color: #DD0000; /* Німецький червоний */
+}
+
+header h2 {
+    font-weight: 300;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+/* Секції */
+section {
+    background: #252525;
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+h3 {
+    border-left: 5px solid #FFCC00;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Карти */
+.map-container {
+    margin-bottom: 30px;
+}
+
+h4 {
+    color: #FFCC00;
+    margin-bottom: 10px;
+}
+
+/* Мультимедіа сітка */
+.media-grid, .widget-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.media-item, .widget {
+    flex: 1;
+    min-width: 300px;
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Аудіо плеєр */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#time_widget {
+    height: 100px;
+    border: none;
+}
+
+/* Підвал */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #777;
+    margin-top: 50px;
+    border-top: 2px solid #333;
+}
